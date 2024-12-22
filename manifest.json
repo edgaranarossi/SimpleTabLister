@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Lister",
+  "version": "1.0",
+  "description": "Lists all tabs in the current window and saves them to a text file.",
+  "permissions": ["tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
